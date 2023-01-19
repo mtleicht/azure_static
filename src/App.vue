@@ -2,17 +2,18 @@
   <NavigationHeader/>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome2"/>
-  
+  <NavigationFooter/>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue';
 import NavigationHeader from './components/NavigationHeader.vue';
+import NavigationFooter from './components/NavigationFooter.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,NavigationHeader
+    HelloWorld, NavigationHeader, NavigationFooter
   }
 }
 </script>
